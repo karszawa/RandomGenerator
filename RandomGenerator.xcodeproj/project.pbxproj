@@ -24,6 +24,7 @@
 		A01DC49E171994C6007D2790 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A01DC476171994C6007D2790 /* Foundation.framework */; };
 		A01DC4A6171994C6007D2790 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A01DC4A4171994C6007D2790 /* InfoPlist.strings */; };
 		A01DC4A9171994C6007D2790 /* RandomGeneratorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A01DC4A8171994C6007D2790 /* RandomGeneratorTests.m */; };
+		A0948FCB171A55AB00DDB30F /* dice_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A0948FCA171A55AB00DDB30F /* dice_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		A01DC4A5171994C6007D2790 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A01DC4A7171994C6007D2790 /* RandomGeneratorTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RandomGeneratorTests.h; sourceTree = "<group>"; };
 		A01DC4A8171994C6007D2790 /* RandomGeneratorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RandomGeneratorTests.m; sourceTree = "<group>"; };
+		A0948FCA171A55AB00DDB30F /* dice_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dice_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 				A01DC492171994C6007D2790 /* ViewController.h */,
 				A01DC493171994C6007D2790 /* ViewController.m */,
 				A01DC47B171994C6007D2790 /* Supporting Files */,
+				A0948FC5171A492800DDB30F /* Resources */,
 			);
 			path = RandomGenerator;
 			sourceTree = "<group>";
@@ -161,6 +164,15 @@
 				A01DC4A4171994C6007D2790 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0948FC5171A492800DDB30F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A0948FCA171A55AB00DDB30F /* dice_icon.png */,
+			);
+			name = Resources;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -240,6 +252,7 @@
 				A01DC48B171994C6007D2790 /* Default-568h@2x.png in Resources */,
 				A01DC48E171994C6007D2790 /* MainStoryboard_iPhone.storyboard in Resources */,
 				A01DC491171994C6007D2790 /* MainStoryboard_iPad.storyboard in Resources */,
+				A0948FCB171A55AB00DDB30F /* dice_icon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +480,7 @@
 				A01DC4AE171994C6007D2790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A01DC4AF171994C6007D2790 /* Build configuration list for PBXNativeTarget "RandomGeneratorTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +489,7 @@
 				A01DC4B1171994C6007D2790 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
